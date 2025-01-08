@@ -1,0 +1,13 @@
+name = "terminil"
+version = "1.0.0"
+licenses = ["MIT"]
+description = "Terminal manipulation in Gleam!"
+target = "erlang"
+repository = { type = "github", user = "david-d-h", repo = "terminil" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+gleam_erlang = ">= 0.33.0 and < 1.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
