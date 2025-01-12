@@ -28,6 +28,12 @@ pub const blinking_bar = style.BlinkingBar
 /// A cursor bar (|) style
 pub const bar = style.Bar
 
+/// Shows the cursor if it is hidden.
+pub const show = command.ShowCursor
+
+/// Hides the cursor if it is visible.
+pub const hide = command.HideCursor
+
 /// A command that saves the cursor's current position.
 /// Restore the position using `restore_position`.
 pub const save_position = command.SaveCursorPosition
